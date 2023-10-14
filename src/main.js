@@ -6,13 +6,15 @@ import App from './App.vue'
 
 createApp(App).mount('#app')
 
-
-Vue.component('my-component', {
-    data() {
-      return {
-        showDropdown: false
-      };
-    },
-    // 其它组件选项，比如methods、computed等
-  });
+new Vue({
+  el: '#app',
+  router,
+  store,
+  icons,
+  template: '<App/>',
+  components: {
+      App
+  }
+})
+  
   
