@@ -283,7 +283,7 @@
         <!-- Card -->
         <a
           class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
-          href="#"
+          href="#src\views\page\Commodity.vue"
         >
           <div class="p-4 md:p-5">
             <div class="flex justify-between items-center">
